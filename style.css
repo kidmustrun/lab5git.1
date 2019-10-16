@@ -1,0 +1,286 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background-image: url(header/BG.png);
+        margin: 0;
+        padding-left: 0;
+        width: 100%;
+        height: 78px;
+        font-size: 0;
+        display: inline-block;
+        font-family: "Ionicons", sans-serif;
+        box-sizing: border-box;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .logo {
+        font-family: 'Playfair Display Black Italic', italic;
+        color: white;
+        font-size: 16px;
+        height: 78px;
+        text-transform: capitalize;
+        margin-left: 100px;
+        display: inline-block;
+        margin-right: 310px;
+    }
+    
+    .menu {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    
+    .menu li {
+        list-style-type: none;
+        display: inline-block;
+        font-size: 12px;
+        margin-right: 30px;
+        padding-top: 33px;
+        color: white;
+        text-transform: uppercase;
+        font-family: "Ionicons", sans-serif;
+    }
+    
+    @font-face {
+        font-family: 'Playfair Display Black Italic';
+        src: url('fonts/Playfair Display Black Italic/playfair_display_black_italic.ttf');
+    }
+    
+    .basket {
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+        margin-right: 35px;
+        text-align: right;
+        margin-left: 265px;
+    }
+    
+    .search {
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+        margin-right: 35px;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('fonts/Montserrat.ttf');
+    }
+    
+    nav {
+        font-family: "Ionicons", sans-serif;
+        background-image: url(body/BG.png);
+        height: 250px;
+        width: 100%;
+        color: white;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    nav p:first-child {
+        font-family: "Montserrat", bold;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 5px;
+        display: inline-block;
+        margin-top: 50px;
+    }
+    
+    nav p:last-child {
+        font-size: 11px;
+        margin-top: 30px;
+    }
+    
+    .main {
+        text-align: center;
+        margin-bottom: 0;
+        position: absolute;
+        top: 240px;
+        left: 40px;
+        width: 1282px;
+        display: inline-block;
+    }
+    
+    .banner {
+        text-align: center;
+        margin-bottom: 0;
+        height: 320px;
+        background: url(body/banner.png);
+        text-align: left;
+    }
+    
+    .btn1 {
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #fff;
+        color: #cab5a4;
+        box-shadow: 0 0 5px 2px;
+        border: 0;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+        font-family: "Montserrat";
+        margin-top: 190px;
+        margin-left: 80px;
+    }
+    
+    .btn2 {
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #fff;
+        color: #cab5a4;
+        margin-top: 150px;
+        margin-left: 810px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+        border: 0;
+        font-family: "Montserrat";
+    }
+    
+    .filter {
+        font-family: "Montserrat", bold;
+        list-style-type: none;
+        display: inline-block;
+        margin-top: 0;
+        padding-left: 0;
+        font-size: 0;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .filter td {
+        border-left: 1px solid rgb(185, 185, 185);
+        border-bottom: 1px solid rgb(185, 185, 185);
+        font-size: 10px;
+        text-transform: uppercase;
+        height: 80px;
+        box-sizing: border-box;
+        margin-bottom: 0;
+    }
+    
+    .filter td:first-child {
+        width: 220px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    
+    .filter td:nth-child(2) {
+        width: 80px;
+        color: #3f5ceb;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .filter td:nth-child(3) {
+        width: 340px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    
+    .filter td:nth-child(4) {
+        width: 330px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    
+    .filter td:nth-child(5) {
+        width: 80px;
+        color: #3f5ceb;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .filter td:nth-child(6) {
+        width: 80px;
+        color: #3f5ceb;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .filter td:nth-child(7) {
+        width: 156px;
+        background-color: #3f5ceb;
+        font-weight: bold;
+        color: white;
+        border: 0;
+    }
+    
+    .filter-column {
+        float: left;
+        width: 300px;
+        text-align: left;
+        border: 1px solid rgb(185, 185, 185);
+    }
+    
+    .categories {
+        width: 100%;
+        height: 500px;
+    }
+    
+    .categories-text {
+        float: left;
+    }
+    
+    .categories-text ul {
+        list-style-type: none;
+        padding-bottom: 50px;
+    }
+    
+    .categories-text ul a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .categories-text ul a li {
+        padding-top: 25px;
+        padding-left: 60px;
+    }
+    
+    .first-categories-text {
+        text-transform: uppercase;
+        font-family: "Montserrat";
+        letter-spacing: 2px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    
+    .categories-text ul a li:hover {
+        color: #3f5ceb;
+    }
+    
+    .categories-numbers {
+        float: right;
+        padding-right: 20px;
+    }
+    
+    .categories-numbers ul {
+        list-style-type: none;
+        padding-bottom: 50px;
+    }
+    
+    .categories-numbers ul {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .categories-numbers ul li {
+        padding-top: 25px;
+        padding-left: 60px;
+    }
+    
+    .categories-numbers ul li:hover {
+        color: #3f5ceb;
+    }
+    
+    .price-range {
+        border-top: 1px solid rgb(185, 185, 185);
+        width: 100%;
+        padding-top: 25px;
+    }
