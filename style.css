@@ -4,11 +4,14 @@
         box-sizing: border-box;
     }
     
+    .container {
+        margin: 0 auto;
+        position: relative;
+    }
+    
     header {
         background-image: url(header/BG.png);
         margin: 0;
-
-
         padding-left: 0;
         width: 100%;
         height: 78px;
@@ -54,10 +57,12 @@
         font-family: 'Playfair Display Black Italic';
         src: url('fonts/Playfair Display Black Italic/playfair_display_black_italic.ttf');
     }
-    .main{
-        width:100%;
+    
+    .main {
+        width: 100%;
         margin: 0 auto;
     }
+    
     .basket {
         color: white;
         display: inline-block;
@@ -106,9 +111,9 @@
     
     .main {
         text-align: center;
-        margin-bottom: 0;
+        margin: 0 auto;
         position: absolute;
-        top: 240px;
+        top: 135px;
         left: 40px;
         width: 1282px;
         display: inline-block;
@@ -219,7 +224,7 @@
     
     .filter-column {
         float: left;
-        width: 300px;
+        width: 298px;
         text-align: left;
         border: 1px solid rgb(185, 185, 185);
     }
@@ -289,50 +294,187 @@
         width: 100%;
         padding-top: 25px;
     }
-    .color{
+    
+    .color {
         border-top: 1px solid rgb(185, 185, 185);
         width: 100%;
         padding-top: 25px;
     }
-    .color-btn{
-margin: 25px auto;
-
+    
+    .color-btn {
+        margin: 25px auto;
     }
     
-    .color-btn tr td button{
+    .color-btn tr td button {
         height: 30px;
         width: 30px;
         border-radius: 100%;
         border: 1px solid lightgray;
         margin: 0 auto;
-        margin:0 10px;
-
+        margin: 0 10px;
     }
-    .color-btn tr button:hover{
-        box-shadow: 0px 0px 20px 0px rgb(44, 44, 44);
+    
+    .color-btn tr button:hover {
+        box-shadow: 0px 0px 20px 0px rgb(90, 90, 90);
     }
- .red{
+    
+    .red {
         background-color: red;
     }
-    .white{
-       
+    
+    .white {
         background-color: rgb(255, 255, 255);
     }
-    .yellow{
+    
+    .yellow {
         background-color: yellow;
     }
-    .green{
+    
+    .green {
         background-color: green;
     }
-    .blue{
+    
+    .blue {
         background-color: blue;
     }
-    .violet{
+    
+    .violet {
         background-color: rgb(88, 0, 88);
     }
-    .salad{
+    
+    .salad {
         background-color: greenyellow;
     }
-    .orange{
-        background-color:orange;
+    
+    .orange {
+        background-color: orange;
+    }
+    
+    .size-btn {
+        color: #232323;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-collapse: collapse;
+        margin: 40px auto 40px auto;
+    }
+    
+    .size-btn tr td {
+        border: 1px solid lightgrey;
+        height: 60px;
+        width: 60px;
+        text-align: center;
+    }
+    
+    .size-btn button {
+        border: 0;
+        background-color: #fff;
+    }
+    
+    .size-btn tr td:hover {
+        box-shadow: 0px 0px 10px 0px rgb(90, 90, 90);
+    }
+    
+    .products-column {
+        float: left;
+        text-align: center;
+        margin-top: 26px;
+    }
+    
+    .products-table {
+        border-spacing: 30px;
+        border-collapse: separate;
+    }
+    
+    .products-table tr td {
+        width: 288px;
+        height: 288px;
+        border: 1px solid #d3d3d3;
+        text-align: left;
+        position: relative;
+    }
+    
+    .product-name {
+        color: #232323;
+        font-family: "Playfair Display";
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: 29px;
+        position: absolute;
+        bottom: 50px;
+    }
+    
+    button:hover {
+        cursor: pointer;
+    }
+    
+    .product-sale-price {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #999999;
+        text-decoration: line-through;
+        margin-left: 30px;
+        display: inline-block;
+        position: absolute;
+        bottom: 30px;
+    }
+    
+    .product-price {
+        color: #3853d8;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-left: 30px;
+        position: absolute;
+        bottom: 30px;
+        left: 100px;
+    }
+    
+    .product-price-no-sale {
+        color: #3853d8;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-left: 30px;
+    }
+    
+    .product-sale {
+        color: #ffffff;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        width: 50px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: #3853d8;
+        text-align: center;
+        position: absolute;
+        bottom: 240px;
+        left: 220px;
+    }
+    
+    .product-image {
+        height: 224px;
+        text-align: center;
+    }
+    
+    .load-message {
+        text-align: center;
+        color: #232323;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        height: 76px;
+        text-decoration: none;
+    }
+    
+    .load-message:hover {
+        font-size: 18px;
     }
